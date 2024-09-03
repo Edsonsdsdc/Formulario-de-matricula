@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+
+  --font-family:'poppins', 'sans-serif';
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+
+  --brand-color-light:#F67841 ;
+  --brand-color-mid:#F3541C ;
+  --brand-color-dark:#E43A12 ;
+
+  --text-color-primary:#292524 ;
+  --text-color-seconday:#57534E ;
+  --text-color-tertiary:#8F8881 ;
+  --text-color-highlight:#E43A12 ;
+
+  --surface-color-primary:#FFFFFF ;
+  --surface-color-seconday:#FEE7D6 ;
+  --surface-color-disabled:#E7E5E4 ;
+
+  --stroke-color-default:#D6D3D1;
+  --stroke-color-highlight:#F3541C ;
+
+  --semantic-color-error:#DC2626 ;
+
+  --supporting-color-orange:#F9A474 ;
+  --supporting-color-yellow:#FEDF6F ;
+  --supporting-color-green:#C7D78D ;
+  --supporting-color-blue:#B8CEDC ;
+  --supporting-color-violet:#C3B2E7 ;
+  --supporting-color-pink:#F682A5 ;
+
+}
