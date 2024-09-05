@@ -35,3 +35,18 @@
   --supporting-color-pink:#F682A5 ;
 
 }
+
+body { 
+ overflow: hidden;
+
+ font: var(--text);
+ color: var(--text-color-seconday);
+
+ h1, h2 {
+  color: var(--text-color-primary)
+ }
+}
+
+img {
+  max-width: 100%;
+}
