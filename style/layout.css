@@ -46,6 +46,7 @@ aside {
 
     & span {
         color: var(--text-color-highlight);
+
     }
   }
 }
