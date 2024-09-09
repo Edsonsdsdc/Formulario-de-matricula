@@ -43,9 +43,6 @@ input[type="date"] {
 
     top: 50%;
     transform: translateY(-50%);
-    
-
-
   }
 
 }
@@ -56,4 +53,48 @@ input[type="date"] {
 
   }
 
+.address > div {
+  gap: 1.25rem;
+}
   
+.input-wrappper:has([disabled]) {
+  opacity: .5;
+
+}
+
+input {
+  &[disabled]{
+    background-color: var( --surface-color-disabled);
+
+    border: 1px solid var(--stroke-color-default);
+
+    color: var(--text-color-primary);
+  }
+
+  &:invalid {
+    border: 0.125rem solid var(--semantic-color-error);
+  }
+
+  & + small {
+    font: var(--text-sm);
+    color: #78716c; ;
+
+    display: inline-block;
+    margin-top: .25rem;
+  }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+
+    font: var(--text-sm);
+    color: var(--semantic-color-error);
+
+    margin-top: .25rem;
+  }
+
+  &:not(:focus):valid + .error {
+    display: none;
+  }
+}
