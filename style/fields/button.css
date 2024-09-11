@@ -1,0 +1,27 @@
+button {
+  all: unset;
+  font-weight: 500;
+  color: var(--text-color-highlight);
+  padding:.75rem 1.5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+
+  &.bth-primary {
+    color: white;
+    background: var(--brand-color-dark); 
+
+    &:hover {
+      background-color: #f3541c;
+    }
+  }
+
+  &.bth-secondary {
+    margin-left: auto;
+    border: 1px solid var(--brand-color-dark);
+
+    &:hover {
+      color: #e43a12;
+      outline: .25rem solid var( --surface-color-seconday);
+    }
+  }
+}

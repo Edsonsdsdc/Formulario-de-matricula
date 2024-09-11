@@ -16,7 +16,12 @@
     <main>
       <div class="main-container">
         <div class="back">
-          <img src="" alt="">
+
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 12H20" stroke="#8F8881" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8.99996 17C8.99996 17 4.00001 13.3176 4 12C3.99999 10.6824 9 7 9 7" stroke="#8F8881" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+              
          <span>voltar</span>
         </div>
          <h1>Formulário de  matrícula</h1>
@@ -134,20 +139,28 @@
             <div class="input-wrapper">
               <label>selecione o turno de estudo</label>
 
-              <div class="radio-wrapper">
-                <div class="radio-inner">
-                  <div class="radio-image"></div>
-                    <input type="radio" name="study-shift" id="morning" value="morning">
-                    <img src="assets/sun-02.png" alt="">
-                    <label for="morning">Manhã</label>
-                </div>
-                <div class="radio-inner">
-                  <div class="radio-image"></div>
-                    <input type="radio" name="study-shift" id="morning" value="morning">
-                    <img src="assets/sun-cloud-02.png" alt="">
-                    <label for="morning">Tarde</label>
+              <div class="radio-inner">
+                <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" id="morning" value="morning">
+                  <img src="assets/sun-02.png" alt="">
+                  <label for="morning">Manhã</label>
               </div>
+
+              <div class="radio-inner">
+                <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" id="morning" value="morning">
+                  <img src="assets/sun-cloud-02.png" alt="">
+                  <label for="morning">Manhã</label>
+              </div>
+            </div>
           </fieldset>
+
+          <div class="action-wrapper">
+            <button class="bth-secondary" type="button">Salvar resposta</button>
+
+            <button class="bth-primary" type="submit">Fazer matricula</button>
+          </div>
+          
          </form>
       </div>
     </main>
